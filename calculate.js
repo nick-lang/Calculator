@@ -24,6 +24,9 @@ var lastButton = '';
 var numberPressed = false;
 
 decimal.addEventListener('click', function(e){
+  if (!numberPressed) {
+    result.textContent = '';
+  }
   if(result.textContent === ''){
     result.textContent += '0.';
   }
