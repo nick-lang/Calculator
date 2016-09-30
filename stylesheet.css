@@ -1,0 +1,10 @@
+table, th, td {
+   border: 1px solid black;
+}
+
+th, td {
+   height: 30px;
+   width: 30px;
+   text-align: center;
+   background: #F0F8FF;
+}
