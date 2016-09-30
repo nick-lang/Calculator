@@ -27,6 +27,7 @@ decimal.addEventListener('click', function(e){
   if (!numberPressed) {
     result.textContent = '';
   }
+
   if(result.textContent === ''){
     result.textContent += '0.';
   }
@@ -126,7 +127,6 @@ var calculate = function(currentVal, heldVal, lastButton){
       result.textContent = (heldVal * 1) / (result.textContent * 1);
       break;
     case 'equals':
-      return result.textContent;
       break;
     default:
       break;
